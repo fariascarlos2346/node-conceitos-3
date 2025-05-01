@@ -12,6 +12,15 @@ jeito antio => const express = requere("express")
 jeito novo => import express from 'express'
 <br>
 para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE.JSON temos que colocar "type": "module".
-<br>
-src="assets/backend.png"
 </p>
+<h2>Protocolos HTTP e seus Padrões de Rotas, suas formas de Comunicação</h2>
+<p>Verbos HTTP => Get=listar, Post=criar, Put=editar vários, Patch=editar um e Delete=deletar</p>
+<p>
+  Query Params(GET) para consulta
+  <br>
+  Route Params (GET, PUT, DELETE) buscar, deletar ou editar algo específico
+  <br>
+  Body Params (POST E PUT) Para enviar ou buscar muitas informações { "nome": "Carlos", "id": "23" }
+  
+</p>
+
