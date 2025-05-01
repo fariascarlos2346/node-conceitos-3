@@ -21,6 +21,10 @@ para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE
   Route Params (GET, PUT, DELETE) buscar, deletar ou editar algo específico
   <br>
   Body Params (POST E PUT) Para enviar ou buscar muitas informações { "nome": "Carlos", "id": "23" }
-  
+  <br>
+  <h3>Codigos HTTP</h3>
+  <p>Confirmação / Sucesso = 2xx</p>
+  <p>Erro do Cliente (Front-End) = 4xx</p>
+  <p>Erro no servidor (falha ao concluir solicitação) = 5xx</p>
 </p>
 
