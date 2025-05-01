@@ -13,5 +13,5 @@ jeito novo => import express from 'express'
 <br>
 para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE.JSON temos que colocar "type": "module".
 <br>
-src=
+src="assets/backend.png"
 </p>
