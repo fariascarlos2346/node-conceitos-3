@@ -4,3 +4,14 @@
 <p>Nesta projeto apredi os Conceitos de Front-End e Back-End além de Full-Stack</p>
 <p>NPM  -> Ferramenta do JavaScript, gerenciador de pacotes do Node, Bibliotecas para nos ajudar nos Projetos.</p>
 <p>Criando projeto com Express e fazendo sua estalação abrindo o terminal, no terminal com o comando 'npm init -y', criando nosso arquivo PACKAGE.JSON onde fica todas as informações do Projeto, a ficha dele, nome, versão, descrição, main, scripts como rodar o projeto e muitos mais.  Além da estalação do Express com o comando "npm i express", criando o  PACKAGE-LOCK.JSON  com muitas informações que nunca vamos mexer nele, e a outra pasta a NODE_MODULES onde o EXPRESS foi estalado e muitas outras coisas, pastas e suas Dependecias, sem estas pastas o sistema não roda.</p>
+<h2>Subindo nosso servidor após as estalações</h2>
+<p>Temos dois jeitos de subir o servidor
+<br>
+jeito antio => const express = requere("express")
+<br>
+jeito novo => import express from 'express'
+<br>
+para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE.JSON temos que colocar "type": "module".
+<br>
+src=
+</p>
