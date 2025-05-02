@@ -12,6 +12,35 @@ jeito antio => const express = requere("express")
 jeito novo => import express from 'express'
 <br>
 para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE.JSON temos que colocar "type": "module".
-<br>
-src=
 </p>
+<h2>Protocolos HTTP e seus Padrões de Rotas, suas formas de Comunicação</h2>
+<p>Verbos HTTP => Get=listar, Post=criar, Put=editar vários, Patch=editar um e Delete=deletar</p>
+<p>
+  Query Params(GET) para consulta
+  <br>
+  Route Params (GET, PUT, DELETE) buscar, deletar ou editar algo específico
+  <br>
+  Body Params (POST E PUT) Para enviar ou buscar muitas informações { "nome": "Carlos", "id": "23" }
+  <br>
+  <h3>Codigos HTTP</h3>
+  <p>Confirmação / Sucesso = 2xx</p>
+  <p>Erro do Cliente (Front-End) = 4xx</p>
+  <p>Erro no servidor (falha ao concluir solicitação) = 5xx</p>
+</p>
+<h2>Criando nossa Primeira rota Get</h2>
+<p>
+  app.get('/usuarios)', (req, res) => {res.send("Olá, Mundo!")}
+  <br>
+  Batento no localhost:3000 no nosso Navegador representando o Front-End.
+  <br<>
+  Temos uma extenção no VScode o Thunder Client para simular o Front-End onde vamos criar nossas Rotas e fazer os Testes.
+</p>
+<h2>Criando nosso Banco de Dados para Persistir nossos Dado Profissionalmente, pois não podemos guardar dados em uma Variável</h2>
+<br>
+<p>Usando o Banco de Dados MongoDB de forma Gratuita</p>
+<p>Mais uma Biblioteca para conectar o banco de dados. O Prisma, estalando com 'npm install prisma --save-dev', sera estalado como devDependecies, so em desenvolvimento. Depois o comando npx prisma init para criar alguns Arquivos para nós, o .gitignore, .env e schema.prisma. O Prisma e o Intermediario do nosso Banco de Dados com uma Interface Grafica.
+<br>
+Mais este comando para estalar e avisar ao Banco quais dados serão Salvos. npm install @prisma/client, para Consolidar os Dados com o comando 'npx prisma db push'. Com o comando "npx prisma studio". nos conseguimos visualizar no navegador o Dados do Banco.
+</p>
+
+
