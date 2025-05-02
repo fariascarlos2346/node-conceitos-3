@@ -40,7 +40,7 @@ para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE
 <h2>Criando nosso Banco de Dados para Persistir nossos Dado Profissionalmente, pois não podemos guardar dados em uma Variável</h2>
 <br>
 <p>Usando o Banco de Dados MongoDB de forma Gratuita</p>
-<p>Mais uma Biblioteca para conectar o banco de dados. O Prisma, estalando com 'npm install prisma --save-dev', sera estalado como devDependecies, so em desenvolvimento. Depois o comando npx prisma init para criar alguns Arquivos para nós, o .gitignore, .env e schema.prisma. O Prisma e o Intermediario do nosso Banco de Dados com uma Interface Grafica.
+<p>Mais uma Biblioteca para conectar o banco de dados. O <a href="https://www.prisma.io/docs/getting-started">Prisma</a>, estalando com 'npm install prisma --save-dev', sera estalado como devDependecies, so em desenvolvimento. Depois o comando npx prisma init para criar alguns Arquivos para nós, o .gitignore, .env e schema.prisma. O Prisma e o Intermediario do nosso Banco de Dados com uma Interface Grafica.
 <br>
 Mais este comando para estalar e avisar ao Banco quais dados serão Salvos. npm install @prisma/client, para Consolidar os Dados com o comando 'npx prisma db push'. Com o comando "npx prisma studio". nos conseguimos visualizar no navegador o Dados do Banco.
 <img src="https://raw.githubusercontent.com/fariascarlos2346/node-conceitos-3/e330fd87732b341ab10a33bf46bb4f4338bf2fba/assets/mongoDB.png"
