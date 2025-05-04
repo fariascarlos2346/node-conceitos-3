@@ -45,5 +45,9 @@ para rodar no terminal => node server.js, Para rodar esta forma nova, no PACKAGE
 Mais este comando para estalar e avisar ao Banco quais dados serão Salvos. npm install @prisma/client, para Consolidar os Dados com o comando 'npx prisma db push'. Com o comando "npx prisma studio". nos conseguimos visualizar no navegador o Dados do Banco.
 <img src="https://raw.githubusercontent.com/fariascarlos2346/node-conceitos-3/e330fd87732b341ab10a33bf46bb4f4338bf2fba/assets/mongoDB.png"
 </p>
+<br>
+<p>
+  O aprendizado sobre ORM(suas interfaces para interligar com o banco de dados) e CRUD(create, read, update e delete) e requisições assincronas(async e o await).
+</p>
 
 
